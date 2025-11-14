@@ -1,6 +1,6 @@
 # Classic Games Source Code
 
-This directory contains complete, runnable implementations of 5 classic games using Python and PyGame.
+This directory contains complete, runnable implementations of 4 classic games using Python and PyGame.
 
 ## Games Included
 
@@ -32,16 +32,9 @@ This directory contains complete, runnable implementations of 5 classic games us
 - **Features**: Maze navigation, ghost AI, power pellets
 - **Controls**: Arrow Keys (move)
 
-### 5. Super Mario (`super_mario/`)
-
-- **File**: `super_mario.py`
-- **Description**: Classic platformer
-- **Features**: Platformer physics, scrolling camera, enemies, coins
-- **Controls**: Arrow Keys (move), SPACE (jump)
-
 ## Installation
 
-1. **Install Python 3.7+** (if not already installed)
+1. **Install Python 3.11+** (if not already installed)
 2. **Install PyGame**:
    ```bash
    pip install pygame-ce
@@ -67,20 +60,7 @@ python space_invaders.py
 # Pac-Man
 cd pacman
 python pacman.py
-
-# Super Mario
-cd super_mario
-python super_mario.py
 ```
-
-## Code Structure
-
-Each game follows a consistent structure:
-
-- **Main game file**: Contains all game logic
-- **README.md**: Game-specific documentation
-- **Classes**: Organized into logical components (Player, Enemy, etc.)
-- **Game loop**: Standard PyGame event handling and rendering
 
 ## Key Programming Concepts Demonstrated
 
@@ -106,15 +86,6 @@ Each game follows a consistent structure:
 - **Snake**: Grid-based movement, body management
 - **Space Invaders**: Sprite groups, shooting mechanics
 - **Pac-Man**: Maze navigation, AI pathfinding
-- **Super Mario**: Platformer physics, camera scrolling
-
-## Educational Value
-
-These games are perfect for learning:
-
-- **Beginners**: Basic Python and PyGame concepts
-- **Intermediate**: Game design patterns and architecture
-- **Advanced**: Performance optimization and advanced features
 
 ## Extending the Games
 
